@@ -1,22 +1,24 @@
 .about-me {
-  background-color: #f5f5f5;
+  background-color: #f1ead0;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
+  margin-top: 50px;
 
   h2 {
     font-size: 24px;
     color: #333;
-    margin-bottom: 10px;
+    margin: 100px 0px 10px 0px;
   }
 
-  p {
+  div {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 15px;
     border-radius: 10px;
-    margin: 0px 50px;
+    margin: 0px 80px 80px 80px;
+    background-color: #f5f0dd;
   }
 }

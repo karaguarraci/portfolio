@@ -2,44 +2,75 @@ const Skills = () => {
   const skills = [
     {
       name: "JavaScript",
-      icon: "https://icons8.com/icon/39854/javascript",
+      icon: "https://img.icons8.com/?size=512&id=39853&format=png",
     },
-    { name: "HTML", icon: "https://icons8.com/icon/39853/javascript" },
-    { name: "CSS", icon: "https://icons8.com/icon/23028/html-5" },
-    { name: "React", icon: "https://icons8.com/icon/35989/react-native" },
-    { name: "Node.js", icon: "https://icons8.com/icon/t9oCxEN7McHZ/nodejs" },
+    {
+      name: "HTML",
+      icon: "https://img.icons8.com/?size=512&id=23027&format=png",
+    },
+    {
+      name: "CSS",
+      icon: "https://img.icons8.com/?size=512&id=38273&format=png",
+    },
+    {
+      name: "React",
+      icon: "https://img.icons8.com/?size=512&id=0Da6k7SMq0hs&format=png",
+    },
+    {
+      name: "Node.js",
+      icon: "https://img.icons8.com/?size=512&id=FQlr_bFSqEdG&format=png",
+    },
     {
       name: "Express.js",
-      icon: "https://icons8.com/icon/SDVmtZ6VBGXt/express-js",
+      icon: "https://img.icons8.com/?size=512&id=kg46nzoJrmTR&format=png",
     },
-    { name: "Mongo.DB", icon: "https://icons8.com/icon/74402/mongodb" },
-    { name: "Python", icon: "https://icons8.com/icon/10686/python" },
-    { name: "Django", icon: "https://icons8.com/icon/mUBILbYvUMq8/django" },
-    { name: "PostgreSQL", icon: "https://icons8.com/icon/25010/postgresql" },
-    { name: "Sass", icon: "https://icons8.com/icon/AA0AjTIUxa2j/sass" },
+    {
+      name: "Mongo.DB",
+      icon: "https://img.icons8.com/?size=512&id=OdTjgPoHJeaK&format=png",
+    },
+    {
+      name: "Python",
+      icon: "https://img.icons8.com/?size=512&id=12584&format=png",
+    },
+    {
+      name: "Django",
+      icon: "https://img.icons8.com/?size=512&id=mUBILbYvUMq8&format=png",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "https://img.icons8.com/?size=512&id=oJvfsaofIav6&format=png",
+    },
+    {
+      name: "Sass",
+      icon: "https://img.icons8.com/?size=512&id=DYjckUr8cF8H&format=png",
+    },
     {
       name: "Bootstrap",
-      icon: "https://icons8.com/icon/KKlkH0M92AHI/bootstrap",
+      icon: "https://img.icons8.com/?size=512&id=KKlkH0M92AHI&format=png",
     },
-    { name: "Git", icon: "https://icons8.com/icon/32891/git" },
-    { name: "GitHub", icon: "https://icons8.com/icon/12599/github" },
+    {
+      name: "Git",
+      icon: "https://img.icons8.com/?size=512&id=38388&format=png",
+    },
+    {
+      name: "GitHub",
+      icon: "https://img.icons8.com/?size=512&id=12598&format=png",
+    },
     {
       name: "VS Code",
-      icon: "https://icons8.com/icon/oMWZpgnJupym/visual-studio-code-2019",
+      icon: "https://img.icons8.com/?size=512&id=ENnBBPpfkhH1&format=png",
     },
     {
       name: "Netlify",
-      icon: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      icon: "https://img.icons8.com/?size=512&id=m6GFODBlJETz&format=png",
     },
-    { name: "Heroku", icon: "https://icons8.com/icon/32337/heroku" },
+    {
+      name: "Heroku",
+      icon: "https://img.icons8.com/?size=512&id=32337&format=png",
+    },
     {
       name: "Postman",
-      icon: "https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.svg",
-    },
-    { name: "Mongoose", icon: "https://icons8.com/icon/gKfcEStXI1Hm/mongoose" },
-    {
-      name: "JWT",
-      icon: "https://icons8.com/icon/rHpveptSuwDz/json-web-token",
+      icon: "https://img.icons8.com/?size=512&id=KIcFwp9MNQL5&format=png",
     },
   ];
   return (

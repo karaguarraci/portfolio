@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="header" bg="custom-color" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
           Kara Guarraci
