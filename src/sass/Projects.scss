@@ -3,25 +3,60 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #f1ead0;
+  background-color: #ede8e9;
   flex-direction: column;
+  & h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
 }
 
 .projects-box {
   width: 80%;
   max-width: 800px;
-  border: 15px solid #f5f0dd;
+  border: 15px solid #fcf9fa;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 10px;
-  margin-bottom: 100px;
-  background-color: #f5f0dd;
+  margin-bottom: 20px;
+  background-color: #fcf9fa;
+  position: relative;
 }
 
 .project-description {
+  text-align: center;
   & a {
     text-decoration: none;
   }
+  font-size: 15px;
+}
+
+.project-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.project-tech {
+  font-size: 18px;
+}
+
+.link-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
 }
 
 .carousel-caption {
@@ -39,4 +74,30 @@
 
 .carousel-indicators {
   display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  color: #ede8e9;
+  opacity: 1;
+  background-color: rgba(92, 83, 83, 0.637);
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.8;
+}
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
 }

@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="contact">
-      <h2>Contact</h2>
+      <h2>Get In Touch</h2>
       <div className="contact-buttons">
         <a
           href="mailto:karaguarraci@gmail.com"

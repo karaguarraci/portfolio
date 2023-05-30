@@ -4,5 +4,8 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  background-color: #f5f0dd;
+  background-color: #fcf9fa;
+  & .navbar-toggler {
+    border-color: transparent;
+  }
 }

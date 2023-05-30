@@ -5,6 +5,7 @@ const Interests = () => {
       <div className="interests-container">
         <div className="interests-card singing">
           <h3>Singing</h3>
+          <img src="https://img.icons8.com/?size=512&id=r87B9e82DtHh&format=png" />
           <p>
             I have a love of classical singing and have performed at many public
             and private events. I have also been a member of an amateur opera
@@ -17,6 +18,7 @@ const Interests = () => {
         </div>
         <div className="interests-card skiiing">
           <h3>Skiing</h3>
+          <img src="https://img.icons8.com/?size=512&id=920&format=png" />
           <p>
             I fell in love with skiing at a young age, and have been skiing most
             years since. I often visit my dad in Italy during the ski season and
