@@ -1,0 +1,22 @@
+.contact {
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  margin: 0 10px;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-icon:hover {
+  transform: translateY(-5px);
+}
