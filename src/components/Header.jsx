@@ -12,54 +12,19 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link
-              href="#about-me"
-              smooth={true}
-              duration={500}
-              offset={-100}
-              spy={true}
-              activeClass="active"
-            >
+            <Nav.Link href="#about-me" duration={500} offset={-100}>
               About Me
             </Nav.Link>
-            <Nav.Link
-              href="#skills"
-              smooth={true}
-              duration={500}
-              offset={-100}
-              spy={true}
-              activeClass="active"
-            >
+            <Nav.Link href="#skills" duration={500} offset={-100}>
               Skills
             </Nav.Link>
-            <Nav.Link
-              href="#projects"
-              smooth={true}
-              duration={500}
-              offset={-100}
-              spy={true}
-              activeClass="active"
-            >
+            <Nav.Link href="#projects" duration={500} offset={-100}>
               Projects
             </Nav.Link>
-            <Nav.Link
-              href="#interests"
-              smooth={true}
-              duration={500}
-              offset={-100}
-              spy={true}
-              activeClass="active"
-            >
+            <Nav.Link href="#interests" duration={500} offset={-100}>
               Interests
             </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              smooth={true}
-              duration={500}
-              offset={-100}
-              spy={true}
-              activeClass="active"
-            >
+            <Nav.Link href="#contact" duration={500} offset={-100}>
               Contact
             </Nav.Link>
           </Nav>
