@@ -1,6 +1,10 @@
 const AboutMe = () => {
   return (
     <div className="about-me">
+      <h1 className="intro-heading">
+        Hi! I'm Kara, a Junior Software Engineer.
+        <br /> Welcome to my portfolio!
+      </h1>
       <h2>About Me</h2>
       <div>
         <p>

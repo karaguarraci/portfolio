@@ -14,11 +14,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/aboutme" element={<AboutMe />} /> */}
-        {/* <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/interests" element={<Interests />} />
-        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </div>
   );
