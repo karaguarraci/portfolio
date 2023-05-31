@@ -12,7 +12,7 @@ const projectsData = [
     techStack: "HTML | CSS | JavaScript",
     description:
       "I created a grid based game using HTML, CSS and JavaScript. I decided to make a Lord of the Rings inspired Frogger game. This helped to further my knowledge and ability to use JavaScript and it was a good way to see how all these languages could come together. ",
-    link: "https://karaguarraci.github.io/",
+    link: "https://karaguarraci.github.io/SEI-Project-1-LOTR-Frogger-Game/",
     readMe: "https://github.com/karaguarraci/karaguarraci.github.io",
   },
   {
