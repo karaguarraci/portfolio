@@ -3,16 +3,12 @@ import Contact from "../components/Contact";
 import Interests from "../components/Interests";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import Welcome from "../components/Welcome";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <div className="sections">
         <div className="aboutme-skills">
-          {/* <section id="welcome">
-            <Welcome />
-          </section> */}
           <section id="about-me">
             <AboutMe />
           </section>
