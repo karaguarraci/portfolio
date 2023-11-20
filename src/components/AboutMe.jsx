@@ -2,30 +2,44 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <h1 className="intro-heading">
-        Hi! I'm Kara, a Junior Software Engineer.
+        Hi! I'm Kara, a Junior Full Stack Developer.
+        <br />
         <br /> Welcome to my portfolio!
       </h1>
       <h2>About Me</h2>
       <div>
         <p>
-          With a background in teaching in a special needs school it has given
-          me a range of skills and a high level of resilience that I feel would
-          aid me in future employment. I have always had a keen interest in
-          technology, from gaming at an early age, being the first in the family
-          to own a computer and being the person people always came to to solve
-          any problem. The solving of technical problems, systematically
-          troubleshooting and researching to find a solution, was something I
-          found greatly rewarding and a skill I believe makes me well suited to
-          a career in software engineering.{" "}
+          As a full-stack developer, I have a strong passion for technology,
+          problem-solving, and continuous learning and have recently been
+          engaged in Chingu’s collaborative coding project, where I gained
+          experience in agile methodologies, Git, and GitHub.
         </p>
         <p>
-          Although I have thoroughly enjoyed my teaching career, my interest in
-          technology and desire to always figure things out has helped me come
-          to the decision of changing careers. I decided to enrol into a
-          software engineering immersive course to develop the skills I need to
-          make this change and am looking to start my career in the tech
-          industry as a junior developer, at a company where I can continue to
-          learn and build on my knowledge and skills.
+          I am also currently a mentee of the Cajigo 100 Women in Tech
+          Accelerator Programme where I was selected out of hundreds of
+          applicants.
+        </p>
+        <p>
+          {" "}
+          I have experience with various technologies, including JavaScript,
+          React.js, Python, and I am currently learning C# and unit testing.
+          I've also developed strong soft skills over my professional career,
+          such as time management, communication, and team leadership.
+        </p>
+        <p>
+          {" "}
+          I've created full-stack web applications where I have gained
+          experience in creating wireframes, implementing authentication and
+          ensuring responsive designs.
+        </p>
+        <p>
+          {" "}
+          My experience as a teacher and teaching assistant has instilled
+          adaptability, problem-solving, and effective communication skills.
+          With a background in both software engineering and education, I bring
+          together technical know-how and strong interpersonal skills. I'm
+          excited to bring my skills and experiences to a company that values
+          growth and learning.
         </p>
       </div>
     </div>

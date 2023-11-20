@@ -3,6 +3,7 @@ import Project1 from "../assets/Screenshot 2023-05-28 at 13.54.32.png";
 import Project2 from "../assets/Screenshot 2023-05-28 at 13.56.31.png";
 import Project3 from "../assets/Screenshot 2023-05-28 at 13.58.25.png";
 import Project4 from "../assets/Screenshot 2023-05-28 at 14.24.40.png";
+import PantryPicker from "../assets/PantryPicker.png";
 
 const projectsData = [
   {
@@ -46,6 +47,16 @@ const projectsData = [
       "I built a full stack web application, which allows users to search for dog-friendly restaurants in a particular city. The backend of the project was built using Python and Django, while the frontend was built using React, with additional styling implemented through React-Bootstrap and SASS. The application includes a search function on the homepage, as well as an 'All Restaurants' page and a 'My Favourites' page.",
     link: "https://pawsomedining.netlify.app/",
     readMe: "https://github.com/karaguarraci/Project_4_Backend",
+  },
+  {
+    image: PantryPicker,
+    alt: "Chingu Project",
+    title: "Chingu Collaborative Project - Pantry Picker",
+    techStack: "React | CSS | Git | GitHub",
+    description:
+      "We built a website which uses an external API in which a user can search one or more ingredients resulting in a list of recipes.",
+    link: "https://chingu-voyages.github.io/v46-tier2-team-17/",
+    readMe: "https://github.com/chingu-voyages/v46-tier2-team-17",
   },
 ];
 
